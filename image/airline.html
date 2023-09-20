@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> - Flight Search</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="login-signup">
+                <a href="login.html">Login</a>
+                <span>|</span>
+                <a href="signup.html">Sign Up</a>
+            </div>
+            <h1>Welcome to Bellview Airlines</h1>
+            <p>Find Your Flight</p>
+        </div>
+    </header>
+
+    <section class="flight-search">
+        <h2>Flight Search</h2>
+        <form>
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="Enter departure city">
+            
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" placeholder="Enter destination city">
+            
+            <label for="date">Departure Date:</label>
+            <input type="date" id="date" name="date">
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section class="flight-list">
+        <h2>Available Flights</h2>
+        <ul>
+            <li>Flight AA101 - New York to Los Angeles - Departure Time: 2023-09-10 08:00 - Available Seats: 200</li>
+            <li>Flight UA202 - Chicago to Miami - Departure Time: 2023-09-11 10:30 - Available Seats: 150</li>
+            <li>Flight DL303 - San Francisco to Seattle - Departure Time: 2023-09-12 12:45 - Available Seats: 100</li>
+        </ul>
+    </section>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <h3>Our Vision</h3>
+        <p>To be ever dependable through the creation of seamless connections and network options for our domestic, regional, and international markets.</p>
+
+        <h3>Our Mission</h3>
+        <p>To expand locations both domestically and beyond as the largest and most profitable airline company to achieve safe, efficient, and affordable short and long-haul services.</p>
+
+        <h3>Why Choose Us</h3>
+        <p>We are committed to the concept of Total Quality Management in which every function in our airline as well as support organization is performed and audited to ensure stringent compliance with the requirements of the Nigeria Civil Aviation Regulations (Nig. CARs).</p>
+
+        <h3>Local Content</h3>
+        <p>One of the major ideas behind setting up Bellview Airlines is to create massive employment opportunities for the local community, thereby contributing to the well-being of our people.</p>
+    </section>
+
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <!-- Google Maps iframe goes here -->
+        </div>
+    </div>
+
+    <footer>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            
+            <div class="contact-info">
+                <h3>Head Office</h3>
+                <p>25 Sobo Arobiodu Street GRA, Ikeja, Lagos, Nigeria.</p>
+                <p>Phone: 01-3438133</p>
+                <p>Email: <a href="mailto:callcenter@flybellview.com">callcenter@flybellview.com</a></p>
+                <p>Hours: Monday to Friday: 8am - 5pm (excluding public holidays)</p>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Customer Care</h3>
+                <p>Phone: +234-700-359-24773223 (0700FLYBELLVIEW), 01-3438133</p>
+                <p>Email: <a href="mailto:callcenter@flybellview.com">callcenter@flybellview.com</a></p>
+                <p>Hours: Monday to Sunday: 24/7</p>
+            </div>
+        </section>
+        
+        <section class="feedback">
+            <h2>Feedback</h2>
+            <form action="submit_feedback.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <p>&copy; 2023 Bellview Airlines</p>
+    </footer>
+</body>
+</html>

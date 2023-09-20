@@ -1,0 +1,93 @@
+.footer{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+
+
+}
+.car{
+  height: 29px;
+  width: 50px;
+  margin-left: 18px;
+}
+.lodge{
+  height: 29px;
+  width: 50px;
+  margin-left: 12px;
+}
+.explore{
+  height: 30px;
+  width: 50px;
+  margin-left: 12px;
+
+}
+.youtube{
+  height: 30px;
+}
+.check-in{
+  height: 30px;
+}
+.facebook{
+  height: 30px;
+}
+.instagram{
+  height: 30px;
+}
+.flight{
+  height: 30px;
+}
+.last{
+  height: 55px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom:0px;
+  left: 76px;
+  right:13px;
+background-color: rgb(104, 101, 101);
+border-bottom-width: 4px;
+border-bottom-style: solid;
+border-bottom-color:rgb(2, 0, 0)
+
+}
+.landing-page {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+ margin-top: 45px;
+  left: 76px;
+  right:13px;
+}
+.landing{
+  margin-left: 34px;
+  margin-right: 80px;
+  height: 100px;
+}
+.ns_form{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+.input-group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+} 
+.btn-danger:hover{
+  background-color: blueviolet;
+  color: black;
+}
+.btn-danger{
+  cursor: pointer;
+}

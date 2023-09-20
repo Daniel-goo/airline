@@ -1,0 +1,196 @@
+ 
+.search-bar{
+  margin-top: 2px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+.find {
+  margin-bottom: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.name{
+  display: inline-block;
+  font-size: 20px;
+}
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+body{
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 80px;
+  height: 1000px;
+  
+}
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+background-color: white;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color:rgb(201, 201, 201)
+
+
+
+}
+.left-section{
+  width: 180px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
+
+}
+.name{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600px;
+  font-size: 25px;
+
+}
+.middle-section{
+  
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search-logo{
+  height: 38px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-bottom: -2px;
+
+  
+  
+}
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+  flex: 1;
+}
+.flight-logo{
+  margin-left: 6px;
+  margin-right: 8px;
+ 
+  
+}
+.search-bar{
+    flex: 1;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0,0, 0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+  font-family: arial;
+  font-size: 16px;
+}
+.flight-logo{
+  height: 40px;
+  width: 40px;
+}
+.flag-logo{
+  height: 40px;
+  width: 40px;
+}
+.right-section{
+  align-items: center;
+  display: flex;
+
+}
+.hamburger-menu{
+  height: 25px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.person-logo{
+  height: 37px;
+}
+.notifications-icon{
+  height: 30px;
+  margin-left: 10px;
+}
+
+.notifications-icon-container{
+  position: relative;
+}
+.noti-count{
+  position:absolute;
+  top: -2px;
+  right:0;
+  background-color: rgb(200, 0, 0);
+  color:white;
+  font-family: roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+.flight-search{
+  font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+.submit:active{  
+  color: blue;
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+.submit:hover{
+  background-color: rgb(49, 243, 49);
+  transition: 0.15s;
+
+}
+.submit{
+  margin-top: 5px;
+  background-color: rgb(172, 174, 177);
+  height: 28px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0, 0, 0, 0.15,;
+  cursor: pointer;
+  color:white;
+  }
+
+.from{
+  font-size: 20px;
+  color: blueviolet;
+  flex:1;
+ 
+}
+.real{
+height: 2000px;
+}
+
+
+
+
+  
